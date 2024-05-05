@@ -116,7 +116,7 @@ const NavBar = () => {
             duration={500}
             className={styles.contactLink}
           >
-            Contact
+            Contacto
           </Link>
         </ul>
       )}
