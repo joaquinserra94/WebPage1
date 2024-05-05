@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className ={navBarOpen === true ? styles.navBar : styles.navOpen}> 
       <p>TESOROS ARGENTINOS | Frutales y Flores</p>                                     
       { !navBarOpen ? (
-          <AiOutlineMenu onClick = {() => setNavbarOpen(!navBarOpen)} size={25} />
+          <AiOutlineMenu onClick = {() => setNavbarOpen(!navBarOpen)} size={25} /> //con esto indico que pase lo contrario, si esta en falso se cambie a verdadero.
       ) : (
       <AiOutlineClose onClick = {() => setNavbarOpen(!navBarOpen)} size={25}/> 
       )}
