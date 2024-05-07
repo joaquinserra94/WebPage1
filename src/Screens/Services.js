@@ -14,7 +14,7 @@ const Services = () => {
 domesticada y cultivada por las poblaciones nativas antes de la introducción
 de otros cultivos por la colonia. Actualmente es producido a nivel local, en
 huertas y quintas, por comunidades que lo incluyen en su alimentación y
-como un hábito heredado de sus antepasados.</p5>
+como un hábito heredado de sus antepasados</p5>
 
       <img 
       className={styles.webImage}
