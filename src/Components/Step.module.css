@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 800px) { /*para cambiarlo de fila a columna*/
     .stepContainer {
       display: flex;
       flex-direction: row;
