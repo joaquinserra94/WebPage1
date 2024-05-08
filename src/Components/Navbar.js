@@ -61,7 +61,7 @@ const NavBar = () => {
       {!navBarOpen && <p className={styles.logo}>TESOROS ARGENTINOS | Arboles Frutales y Flores</p>}
       {!navBarOpen && windowDimension.width < 800 ? (
         <AiOutlineMenu
-          color="#f1f1f1"
+          color="#f1f1f1" //controlamos el color de boton menu
           onClick={() => setNavBarOpen(!navBarOpen)}
           size={25}
         />

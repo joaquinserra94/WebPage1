@@ -2,24 +2,40 @@ import React from 'react';
 import styles from "./Services.module.css";
 
 const Services = () => {
-  const imageUrl = 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kd5Zvu-bD4aQqzH9V_tMEw.jpeg'; 
+  const imageUrl = 'https://www.infopico.com/wp-content/uploads/2020/11/la-pampa-1-1.jpg'; 
+  const imageUrl2 = 'https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg';
 
   return (
     <div name="Services" className={styles.services}>
       <p>
-        <b>Arboles frutales <br />caracteristicos de la región</b></p>
+        <b>ÁRBOL NACIONAL <br />ARGENTINO</b></p>
 
-      <p>CHILTO</p>
-      <p5>El chilto es una especie originaria de América Central y del Sur que fue
-domesticada y cultivada por las poblaciones nativas antes de la introducción
-de otros cultivos por la colonia. Actualmente es producido a nivel local, en
-huertas y quintas, por comunidades que lo incluyen en su alimentación y
-como un hábito heredado de sus antepasados</p5>
+      <p>CALDÉN</p>
+      <h3>Prosopis caldenia, el Caldén es una especie del Género Prosopis, autóctona de Argentina, de árboles leguminosos con espinas, de regiones templadas secas. <br />
+        Prospera en suelo arenoso y árido y resiste sequía, desarrollando un sistema radicular extremadamente profundo. 
+        Su madera es dura, densa y durable. <br /> Su fruto es una legumbre comestible, 
+        con mediana concentración de azúcar.</h3>
 
       <img 
       className={styles.webImage}
       src={imageUrl}
       ></img>
+
+      <p>
+        <b>FLOR NACIONAL <br />ARGENTINA</b></p>
+
+      <p>CEIBO</p>
+      <h3>El ceibo, también denominado seibo, seíbo o bucaré, es una especie característica de la formación denominada bosques en galería, originaria de América, <br /> 
+        especialmente de la Argentina (zona del Litoral), Uruguay (donde también es flor nacional), Brasil y Paraguay. <br /> 
+        Crece en las riberas del Paraná y del Río de la Plata, aunque se la puede encontrar también en zonas cercanas a ríos, lagos y pantanos. <br /> 
+        Su madera, blanca amarillenta y muy blanda, se utiliza para fabricar artículos de peso reducido. <br />  
+        Sus grandes flores de color rojo se utilizan para teñir telas, aunque por su vistosidad cumplen también una función ornamental, <br />  razón por la cual se la encuentra cultivada en paseos, parques y plazas.</h3>
+
+        <img 
+      className={styles.webImage}
+      src={imageUrl2}
+      ></img>
+
     </div>
   );
 };
