@@ -3,7 +3,7 @@ import styles from "./HowWeWork.module.css";
 import Step from "../Components/Step";
 
 const HowWeWork = () => {
-  const steps = [
+  const steps = [ //lo hacemos como arrays y luego lo mapeamos mas abajo
     {
       text: " You tell us your proposal.",
       id: 1,

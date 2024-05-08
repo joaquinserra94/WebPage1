@@ -16,7 +16,7 @@
     text-align: center;
   }
   
-  .stepBorder {
+  .stepBorder { /*esta es la barra verde*/
     background-color: #356161;
     height: 6px;
     width: 60%;
