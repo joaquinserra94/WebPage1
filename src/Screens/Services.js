@@ -6,7 +6,7 @@ const Services = () => {
   const imageUrl2 = 'https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg';
 
   return (
-    <div name="Services" className={styles.services}>
+    <div name="Árboles Frutales" className={styles.services}>
       <p>
         <b>ÁRBOL NACIONAL <br />ARGENTINO</b></p>
 
