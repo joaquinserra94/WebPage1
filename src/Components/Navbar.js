@@ -40,10 +40,10 @@ const NavBar = () => {
       id: 3,
       link: "Flores",
     },
-    {
-      id: 4,
-      link: "Información",
-    },
+    //{
+      //id: 4,
+      //link: "Información",
+    //},
   ];
 
   const scrollPosition = useScrollPosition();
