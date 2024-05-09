@@ -111,7 +111,7 @@ const NavBar = () => {
           ))}
           <Link
             onClick={() => setNavBarOpen(false)}
-            to="Contacto"
+            to="Contact"
             smooth
             duration={500}
             className={styles.contactLink}

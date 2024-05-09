@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import styles from "./Home.module.css";
 
+
 const Home = () => {
   return (
     <div name="Inicio" className={styles.home}>
@@ -16,19 +17,25 @@ const Home = () => {
         </p>
       </div>
       <div className={styles.ctaContainer}>
-        <Link
-          to="Contacto"
+        <a
+          href="https://www.argentina.gob.ar/interior/ambiente/audiovisual/arboles"
+          className={styles.callToAction}
+          target="_blank"
+          rel="noopener noreferrer"
           smooth
           duration={500}
-          className={styles.callToAction}
+          
+          
         >
           MI ARGENTINA
-        </Link>
+        </a>
         <Link
-          to="Contacto"
+          to="Contact"
           smooth
           duration={500}
           className={styles.callToAction}
+          
+          
         >
           CONTACTO
         </Link>
